@@ -3,6 +3,9 @@
 ## About
 A Go API wrapper around the arXiv.org [API](arxiv.org/help/api/user-manual). Provides simple additions to the search query as well as return the Atom XML in a struct format.
 
+### GoDoc
+http://godoc.org/github.com/DevinCarr/goarxiv
+
 ## How to
 ```shell
 go get github.com/devincarr/goarxiv
@@ -29,7 +32,7 @@ fmt.Println(result.Entry[0].Title)
 ```
 
 ### Results
-The results from the arXiv.org API are in Atom XMl format and goarxiv utilizes `golang.org/x/tools/blog/atom` for the results parsing. See [godoc/atom](https://godoc.org/golang.org/x/tools/blog/atom) for the format of the results. 
+The results from the arXiv.org API are in Atom XMl format and goarxiv utilizes `golang.org/x/tools/blog/atom` for the results parsing. See [godoc/atom](https://godoc.org/golang.org/x/tools/blog/atom) for the format of the results.
 
 ## License
 The MIT License (MIT)
