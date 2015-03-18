@@ -1,6 +1,4 @@
 language: go
-go:
-  - tip
-script: go get github.com/devincarr/goarxiv && go test -v
+script: go test -v
 notifications:
   email: false
