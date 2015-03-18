@@ -1,10 +1,6 @@
-# goarxiv [![Build Status](https://travis-ci.org/DevinCarr/goarxiv.svg)](https://travis-ci.org/DevinCarr/goarxiv)
+# goarxiv [![Build Status](https://travis-ci.org/DevinCarr/goarxiv.svg)](https://travis-ci.org/DevinCarr/goarxiv) [![GoDoc](https://godoc.org/github.com/devincarr/goarxiv?status.svg)](http://godoc.org/github.com/devincarr/goarxiv)
 
-## About
 A Go API wrapper around the arXiv.org [API](arxiv.org/help/api/user-manual). Provides simple access to the search query and returns in a simple Atom XML struct format.
-
-### GoDoc
-http://godoc.org/github.com/DevinCarr/goarxiv
 
 ## How to
 ```shell
@@ -14,7 +10,7 @@ and
 ```Go
 import github.com/devincarr/goarxiv
 ```
-### New Search
+#### New Search
 ```Go
 // Build a new search struct
 s := goarxiv.New()
@@ -31,7 +27,7 @@ fmt.Println(result.Entry[0].Title)
   Decomposition"
 ```
 
-### Results
+#### Result Format
 The results from the arXiv.org API are in Atom XMl format and goarxiv utilizes `golang.org/x/tools/blog/atom` for the results parsing. See [godoc/atom](https://godoc.org/golang.org/x/tools/blog/atom) for the format of the results.
 
 ## License
