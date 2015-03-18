@@ -1,7 +1,7 @@
-// goarxiv_test v0.1
-// Made by Devin Carr (github.com/devincarr/goarxiv),
-// Licensed under MIT,
-// Utilizes the arXiv.org API (http://arxiv.org/help/api/user-manual)
+// A Go API wrapper around the arXiv.org (arxiv.org/help/api/user-manual).
+// Provides simple access to the search query and returns in a simple Atom XML struct format.
+// Made by Devin Carr (http://github.com/devincarr/goarxiv)
+// Licensed under MIT
 package goarxiv
 
 import "testing"
