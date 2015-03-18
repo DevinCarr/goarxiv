@@ -1,7 +1,7 @@
-# goarxiv
+# goarxiv [![Build Status](https://travis-ci.org/DevinCarr/goarxiv.svg)](https://travis-ci.org/DevinCarr/goarxiv)
 
 ## About
-A Go API wrapper around the arXiv.org [API](arxiv.org/help/api/user-manual). Provides simple additions to the search query as well as return the Atom XML in a struct format.
+A Go API wrapper around the arXiv.org [API](arxiv.org/help/api/user-manual). Provides simple access to the search query and returns in a simple Atom XML struct format.
 
 ### GoDoc
 http://godoc.org/github.com/DevinCarr/goarxiv
